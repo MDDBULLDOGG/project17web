@@ -6229,7 +6229,7 @@ button.bg-primary:focus {
 }
 
 .bg-secondary {
-  background-color: #6c757d !important;
+  background-color: #1b1c20 !important;
 }
 
 a.bg-secondary:hover, a.bg-secondary:focus,
@@ -6321,7 +6321,7 @@ button.bg-black:focus {
 }
 
 .border-top {
-  border-top: 1px solid #dee2e6 !important;
+  border-top: 1px solid #201d1b !important;
 }
 
 .border-right {
@@ -10222,6 +10222,16 @@ body {
   }
 }
 
+.carousel-item {
+  height: 65vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 .btn {
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   padding: 1.25rem 2rem;
@@ -10245,14 +10255,14 @@ body {
   background-size: cover;
 }
 .masthead h0 {
+  vertical-align: sub;
   font-family: "Alte-DIN-1451-Mittelschrift", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-size: 10rem;
+  font-size: 12rem;
   line-height: 10rem;
-  letter-spacing: 0.8rem;
-  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+  letter-spacing: 0rem;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
-  background-clip: text;
+          background-clip: text;
 }
 .masthead h1 {
   font-family: "Alte-DIN-1451-Mittelschrift", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -10282,7 +10292,7 @@ body {
   .masthead h1 {
     font-size: 6.5rem;
     line-height: 6.5rem;
-    letter-spacing: 0.8rem;
+    letter-spacing: 0.2rem;
   }
   .masthead h2 {
     max-width: 30rem;
@@ -10299,6 +10309,7 @@ body {
 }
 
 .projects-section {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.1) 97%, rgba(0, 0, 0, 0.5) 99%);
   padding: 10rem 0;
 }
 .projects-section .featured-text {
@@ -10327,7 +10338,8 @@ body {
 
 .signup-section {
   padding: 10rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000000 100%), url("../assets/img/bg-signup.jpg");
+  height: 25rem;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.1) 50%, #18191d 100%), url("../assets/img/bg-social.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
