@@ -10337,7 +10337,7 @@ body {
 }
 
 .media-section {
-  padding: 10rem 0;
+  padding: 0rem 4rem 4rem 4rem;
 }
 .media-section .featured-text {
   padding: 2rem;
@@ -10367,7 +10367,7 @@ body {
   padding: 10rem 0;
   height: auto;
   min-height: 40rem;
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.1) 50%, #18191d 100%), url("../assets/img/bg-social.jpg");
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.1) 50%, #1b1c20 100%), url("../assets/img/bg-social.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -10396,10 +10396,28 @@ body {
 }
 
 .updates-section .card card-title {
-  font-size: 0.8rem;
   font-family: "Alte-DIN-1451-Mittelschrift", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   text-transform: uppercase;
   letter-spacing: 0.15rem;
+}
+
+.updates-section .card card-subtitle {
+  font-size: 0.8rem;
+  font-family: "Alte-DIN-1451-Mittelschrift", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  letter-spacing: 0.15rem;
+}
+
+.updates-section a:not(.btn, .p) {
+  color: rgba(255,255,255,1);
+  text-decoration: none;
+  background-color: transparent;
+}
+.updates-section a:hover {
+  color: #467370;
+  text-decoration: underline;
+}
+.updates-section p {
+  color: rgba(255, 255, 255, 0.5)
 }
 
 .updates-section .form-inline input {
@@ -10469,4 +10487,12 @@ body {
 
 .masthead-fade {
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%);
+}
+
+.update-card-body-shadow {
+  box-shadow: 0 8px 8px 4px rgba(0, 0, 0, 1);
+}
+
+.hr-section {
+  border: 1px solid rgba(255, 255, 255, 0.5);
 }
