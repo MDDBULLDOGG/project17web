@@ -10367,7 +10367,7 @@ body {
   padding: 10rem 0;
   height: auto;
   min-height: 40rem;
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.1) 50%, #1b1c20 100%), url("../assets/img/bg-social.jpg");
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.1) 50%, #1b1c20 100%), url("../assets/img/bg-contact.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -10431,29 +10431,29 @@ body {
   border: 0;
 }
 
-.social-section {
+.contact-section {
   padding-top: 5rem;
 }
-.social-section .card {
+.contact-section .card {
   border: 0;
   border-bottom: 0.25rem solid rgba(255,255,255,0.25);
 }
-.social-section .card h4 {
+.contact-section .card h4 {
   font-size: 0.8rem;
   font-family: "Alte-DIN-1451-Mittelschrift", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   text-transform: uppercase;
   letter-spacing: 0.15rem;
 }
-.social-section .card hr {
+.contact-section .card hr {
   border-color: rgba(255,255,255,0.5);
 
   border-width: 0.25rem;
   width: 3rem;
 }
-.social-section .social {
+.contact-section .social {
   margin-top: 5rem;
 }
-.social-section .social a {
+.contact-section .social a {
   text-align: center;
   height: 3rem;
   width: 3rem;
@@ -10462,10 +10462,10 @@ body {
   line-height: 3rem;
   color: rgba(255, 255, 255, 0.3);
 }
-.social-section .social a:hover {
+.contact-section .social a:hover {
   color: rgba(255, 255, 255, 0.5);
 }
-.social-section .social a:active {
+.contact-section .social a:active {
   color: #fff;
 }
 
