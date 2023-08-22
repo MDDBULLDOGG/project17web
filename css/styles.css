@@ -93,6 +93,7 @@ hr {
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 0.5rem;
+  text-align: center;
 }
 
 p {
@@ -4484,7 +4485,8 @@ input[type=button].btn-block {
 }
 
 .card-title {
-  margin-bottom: 0.75rem;
+  margin-bottom: 0rem;
+  min-height: 5.5rem;
 }
 
 .card-subtitle {
@@ -6233,6 +6235,11 @@ a.close.disabled {
 
 .align-text-bottom {
   vertical-align: text-bottom !important;
+}
+
+.align-text-bottom-right {
+  vertical-align: text-bottom !important;
+  text-align: right !important;
 }
 
 .align-text-top {
